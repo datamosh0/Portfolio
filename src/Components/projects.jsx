@@ -57,7 +57,8 @@ export default function Projects() {
                 className="text-center "
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  margin: "1rem",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
                   padding: ".5rem",
                 }}
               >
@@ -95,7 +96,8 @@ export default function Projects() {
                 className="text-center"
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  margin: "1rem",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
                   padding: ".5rem",
                 }}
               >
@@ -135,7 +137,8 @@ export default function Projects() {
                 className="text-center"
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  margin: "1rem",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
                   padding: ".5rem",
                 }}
               >
@@ -175,7 +178,8 @@ export default function Projects() {
                 className="text-center"
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  margin: "1rem",
+                  marginLeft: "1rem",
+                  marginBottom: '1rem',
                   padding: ".5rem",
                 }}
               >
@@ -210,7 +214,8 @@ export default function Projects() {
                 className="text-center"
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  margin: "1rem",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
                   padding: ".5rem",
                 }}
               >

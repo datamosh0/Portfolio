@@ -26,7 +26,8 @@ code {
   font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: rgb(212, 212, 212);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-left: 2rem;
 }
 
 .react,
@@ -36,4 +37,17 @@ code {
 
 .react:hover {
   color: #61dafb;
+}
+.header {
+  padding-left: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

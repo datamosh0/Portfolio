@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 export default function slider() {
   const str = "Hello, I'm ";
   return (
-    <div className="container pt-90 pb-90 pl-100">
-      <div className="row m-0 ">
-        <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5">
+    <div className="pb-30 pt-30">
+      <div className=" m-0 header  ">
+        <div className="">
           <div className="slider-left">
             <div className="name">
               <h1>
@@ -76,10 +76,7 @@ export default function slider() {
           </div>
         </div>
 
-        <div
-          className="col-xl-8 col-lg-8 col-md-7 col-sm-8 col-8 slider-area-intro "
-          style={{ marginLeft: "4rem" }}
-        >
+        <div className="">
           <div className="into-area">
             <div className="section-title">
               <p className="pr-20 about">
