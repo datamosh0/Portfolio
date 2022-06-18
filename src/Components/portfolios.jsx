@@ -78,7 +78,7 @@ export default function Portfolios() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/datamosh0/LandingPage/tree/hosting-branch"
-                      style={{ color: "#c48f43", marginTop: "5px;" }}
+                      style={{ color: "#c48f43", marginTop: "5px" }}
                     >
                       Source Code
                     </a>
@@ -120,7 +120,7 @@ export default function Portfolios() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/datamosh0/Etsy/tree/hosting-branch"
-                      style={{ color: "#c48f43", marginTop: "5px;" }}
+                      style={{ color: "#c48f43", marginTop: "5px" }}
                     >
                       Source Code
                     </a>
@@ -162,7 +162,7 @@ export default function Portfolios() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/datamosh0/NBA"
-                      style={{ color: "#c48f43", marginTop: "5px;" }}
+                      style={{ color: "#c48f43", marginTop: "5px" }}
                     >
                       Source Code
                     </a>
@@ -239,7 +239,7 @@ export default function Portfolios() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
-                      style={{ color: "#c48f43", marginTop: "5px;" }}
+                      style={{ color: "#c48f43", marginTop: "5px" }}
                     >
                       Source Code
                     </a>

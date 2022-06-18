@@ -1,9 +1,22 @@
 import React from "react";
 import { FaEnvelope, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import SectionTitle from "./section_title";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../index.css";
 
 export default function Contact() {
+  function myFunction() {
+    /* Get the text field */
+    let copyText = "dawsoncontreras@gmail.com";
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText);
+  }
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Click to Copy
+    </Tooltip>
+  );
   return (
     <div className="contact-area section-ptb" id="contact">
       <div className="container">
@@ -12,19 +25,18 @@ export default function Contact() {
       <div className="container mt-45">
         <div className="row md-justify-content-center w-fit">
           <div className="col-lg-4 col-md-6 mb-30">
-            <div className="contact-item">
-              <div className="ct-item-icon float-left ml-30 mr-20 font-sm">
-                <i>
-                  <FaEnvelope />
-                </i>
+            <OverlayTrigger placement="top" overlay={renderTooltip}>
+              <div className="contact-item">
+                <div className="ct-item-icon float-left ml-30 mr-20 font-sm">
+                  <i>
+                    <FaEnvelope />
+                  </i>
+                </div>
+                <a onClick={myFunction} className="btn-animation">
+                  dawsoncontreras@gmail.com
+                </a>
               </div>
-              <a
-                className="btn-animation "
-                href="https://themeforest.net/user/tortoiz"
-              >
-                dawsoncontreras@gmail.com
-              </a>
-            </div>
+            </OverlayTrigger>
           </div>
 
           <div className="col-lg-4 col-md-6 mb-30 mb-lg-0">
