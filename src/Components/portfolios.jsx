@@ -140,7 +140,7 @@ export default function Portfolios() {
                     portfolioImg={portfolioImg_03}
                     title="NBA Stats Website"
                     technologies="React, Apis, Tailwind, Bootstrap"
-                    link="https://warm-kataifi-8342ab.netlify.app/"
+                    link="https://nba-statistics.netlify.app/"
                     desc=""
                   />
                   <h6>
@@ -153,7 +153,7 @@ export default function Portfolios() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://warm-kataifi-8342ab.netlify.app/"
+                      href="https://nba-statistics.netlify.app/"
                       style={{ color: "#c48f43" }}
                     >
                       Live Demo
