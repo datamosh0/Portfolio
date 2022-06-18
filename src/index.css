@@ -53,17 +53,3 @@ code {
     padding-right: 5%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .projectPadding {
-    padding-right: 15px;
-  }
-}
-
-.projectPadding {
-  padding-right: 1rem;
-}
-
-.blogPadding {
-  padding-right: 1rem;
-}

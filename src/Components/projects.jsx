@@ -18,6 +18,7 @@ import SectionTitle from "./section_title";
 export default function Projects() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [portfolioColumns, setPortfolioColumns] = useState(3);
+  const [paddingVar, setPaddingVar] = useState(3);
   const onWindowResize = useGlobalEvent("resize");
 
   const controlColumns = () => {
@@ -32,8 +33,17 @@ export default function Projects() {
       setPortfolioColumns(1);
     }
   };
+  const controlPadding = () => {
+    if (windowWidth <= 768) {
+      setPaddingVar(2);
+    }
+    if (windowWidth >= 768) {
+      setPaddingVar(1);
+    }
+  };
   onWindowResize((event) => {
     controlColumns();
+    controlPadding();
   });
 
   useEffect(() => {
@@ -41,7 +51,10 @@ export default function Projects() {
   }, [windowWidth]);
 
   return (
-    <div id="projects" style={{ width: "100vw" }} className="projectPadding">
+    <div
+      id="projects"
+      style={{ width: "100vw", paddingRight: `${paddingVar}rem` }}
+    >
       <SectionTitle title="PROJECTS" />
       <Row style={{ width: "full" }}>
         <Col sm={12}>
