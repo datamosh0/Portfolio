@@ -12,12 +12,18 @@ export default function SinglePortfolio(props) {
   }, []);
   return (
     <div className="grid observer">
-      <div className="col px-sm-2 mb-3 ">
+      <div className=" ">
         <div className="portfolio-wrapper">
-          <div className="portfolio-thumb">
+          <div className="portfolio-thumb ">
             <a href={link} alt="" target="_blank" rel="noopener noreferrer">
               {/* <img src={portfolioImg} alt={title} /> */}
-              <div style={{ width: `${varWidth}`, height: "auto" }}>
+              <div
+                className="ml-2 mr-2"
+                style={{
+                  width: `${varWidth}`,
+                  height: "auto",
+                }}
+              >
                 <img
                   src={capture}
                   alt={title}

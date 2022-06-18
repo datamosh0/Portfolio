@@ -2,31 +2,32 @@ import React, { useState, useEffect } from "react";
 import { FaAngleRight } from "react-icons/fa";
 import blogPosts from "../data/blog_posts";
 import SectionTitle from "./section_title";
+
 export default function Blogs(props) {
   const [posts, setPosts] = useState([]);
   const [featurePosts, setFeaturePosts] = useState([]);
-  // const [withoutFeaturePosts, setWithoutFeaturePosts] = useState([]);
-  // const smBlogPostNumbers = 3;
+
   const featurePostsNumber = 2;
   useEffect(() => {
     const postsData = blogPosts.posts;
     setPosts(postsData);
     setFeaturePosts(blogPosts.posts.filter((posts) => posts.featured == true));
-    // setWithoutFeaturePosts(
-    //   blogPosts.posts.filter((posts) => posts.featured !== true)
-    // );
   }, [posts]);
 
   return (
-    <div
-      className="news-area pt-110 bgs"
-      style={{ paddingRight: "0rem" }}
-      id="blog"
-    >
+    <div className="news-area pt-110 bgs" id="blog" style={{}}>
       <SectionTitle title="LATEST BLOGS" />
       <div className="row mt-45 pb-90 ">
-        <div className="col-xl-8 mr-15 ml-15">
-          <div className="row ">
+        <div
+          className="col-xl-8  "
+          style={{
+            paddingRight: "0",
+            paddingLeft: "0",
+            width: "94%",
+            marginLeft: "1%",
+          }}
+        >
+          <div className="row " style={{ margin: "1rem" }}>
             {featurePosts.slice(0, featurePostsNumber).map((posts, i) => (
               <div className="col-lg-6" key={i}>
                 <div className="single-blog mb-30 pb-40">
