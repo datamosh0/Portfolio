@@ -6,20 +6,11 @@ import { Link as ReactLink } from "react-router-dom";
 export default function Header() {
   return (
     <div className="header-area">
-      <div className="container mt-60">
+      <div className="container pt-30">
         <div className="row justify-content-lg-between">
           <div className="col-lg-12 px-0">
             <div className="menu-area">
               <Navbar collapseOnSelect expand="lg" className="p-0">
-                <div className="logo-area">
-                  <ReactLink
-                    to="/"
-                    className="nav-link font-weight-bold "
-                    style={{ fontWeight: "bold" }}
-                  >
-                    <h2>DC</h2>
-                  </ReactLink>
-                </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav">
                   <i className="text-white">
                     <FaBars />
@@ -32,7 +23,7 @@ export default function Header() {
                     </ReactLink>
                     <Link
                       className="nav-link"
-                      to="portfolio"
+                      to="projects"
                       smooth={true}
                       duration={2000}
                       activeClass="active"

@@ -14,6 +14,7 @@ function App(props) {
           <Route path="/">
             <Home />
           </Route>
+
           <Route exact path="/blog_details/:Id" component={BlogDetails} />
           <Route path="*">
             <FourZeroFour />

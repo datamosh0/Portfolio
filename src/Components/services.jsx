@@ -1,7 +1,7 @@
 import React from "react";
 import servicIcon_02 from "../assets/images/icons/code.png";
 import servicIcon_05 from "../assets/images/icons/code-white.png";
-import servicNode from "../assets/images/icons/servicNode.png";
+import servicNode from "../assets/images/icons/servicNpm.png";
 import servicJest from "../assets/images/icons/servicJest.png";
 import servicJavascript from "../assets/images/icons/servicJavascript.png";
 import servicGit from "../assets/images/icons/servicGit.png";
@@ -103,7 +103,7 @@ export default function Services() {
                 <img src={servicNode} alt="design" style={{ height: "60px" }} />
               </div>
               <div className="skill-project">
-                <h4 className="mb-3">NODE</h4>
+                <h4 className="mb-3">NODE PACKAGE MANAGER</h4>
               </div>
             </div>
           </div>

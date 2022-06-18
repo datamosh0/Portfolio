@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { BiCopyAlt } from "react-icons/bi";
 import SectionTitle from "./section_title";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../index.css";
@@ -20,21 +21,23 @@ export default function Contact() {
   return (
     <div className="contact-area section-ptb" id="contact">
       <div className="container">
-        <SectionTitle title="CONTACT US" subTitle="How to Contact Me" />
+        <SectionTitle title="CONTACT" />
       </div>
       <div className="container mt-45">
         <div className="row md-justify-content-center w-fit">
           <div className="col-lg-4 col-md-6 mb-30">
-            <OverlayTrigger placement="top" overlay={renderTooltip}>
+            <OverlayTrigger placement="bottom" overlay={renderTooltip}>
               <div className="contact-item">
                 <div className="ct-item-icon float-left ml-30 mr-20 font-sm">
                   <i>
-                    <FaEnvelope />
+                    <BiCopyAlt />
                   </i>
                 </div>
-                <a onClick={myFunction} className="btn-animation">
-                  dawsoncontreras@gmail.com
-                </a>
+                <div>
+                  <a onClick={myFunction} className="btn-animation">
+                    dawsoncontreras@gmail.com
+                  </a>
+                </div>
               </div>
             </OverlayTrigger>
           </div>
