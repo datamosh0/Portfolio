@@ -20,7 +20,7 @@ export default function Contact() {
   );
   return (
     <div className="contact-area section-ptb" id="contact">
-      <div className="container">
+      <div className="">
         <SectionTitle title="CONTACT" />
       </div>
       <div className="container mt-45">
@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="col-lg-4 col-md-6 mb-30">
             <OverlayTrigger placement="bottom" overlay={renderTooltip}>
               <div className="contact-item">
-                <div className="ct-item-icon float-left ml-30 mr-20 font-sm">
+                <div className="ct-item-icon float-left  font-sm">
                   <i>
                     <BiCopyAlt />
                   </i>

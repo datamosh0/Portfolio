@@ -18,11 +18,7 @@ export default function Blogs(props) {
   }, [posts]);
 
   return (
-    <div
-      className="news-area pt-110 bgs "
-      style={{ paddingRight: "18px" }}
-      id="blog"
-    >
+    <div className="news-area pt-110 bgs blogPadding" id="blog">
       <SectionTitle title="LATEST BLOGS" />
       <div className="row mt-45 pb-90 ">
         <div className="col-xl-8 mr-15 ml-15">

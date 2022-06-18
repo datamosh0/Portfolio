@@ -41,140 +41,129 @@ export default function Projects() {
   }, [windowWidth]);
 
   return (
-    <div id="projects">
+    <div id="projects" style={{ width: "100vw" }} className="projectPadding">
       <SectionTitle title="PROJECTS" />
-      <div
-        style={{
-          width: "max-content",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <Row style={{ width: "100vw" }}>
-          <Col sm={12}>
-            <Masonry columnsCount={portfolioColumns}>
-              <div
-                className="text-center "
-                style={{
-                  boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  marginLeft: "1rem",
-                  marginBottom: "1rem",
-                  padding: ".5rem",
-                }}
-              >
-                <h3>Tezos Landing Page</h3>
-                <SinglePortfolio
-                  portfolioImg={portfolioImg_01}
-                  link="https://tezos.onrender.com/"
-                  capture={tezosCapture}
-                />
-                <h6>
-                  <code style={{ fontSize: "1.3rem" }}>
-                    HTML CSS Javascript
-                  </code>
-                </h6>
-                <p className="flex-col">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://tezos.onrender.com/"
-                    style={{ color: "#c48f43" }}
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/datamosh0/LandingPage/tree/hosting-branch"
-                    style={{ color: "#c48f43", marginTop: "5px" }}
-                  >
-                    Source Code
-                  </a>
-                </p>
-              </div>
-              <div
-                className="text-center"
-                style={{
-                  boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  marginLeft: "1rem",
-                  marginBottom: "1rem",
-                  padding: ".5rem",
-                }}
-              >
-                <h3>Etsy Landing Page</h3>
+      <Row style={{ width: "full" }}>
+        <Col sm={12}>
+          <Masonry columnsCount={portfolioColumns}>
+            <div
+              className="text-center "
+              style={{
+                boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+                marginLeft: "1rem",
+                marginBottom: "1rem",
+                padding: ".5rem",
+              }}
+            >
+              <h3>Tezos Landing Page</h3>
+              <SinglePortfolio
+                portfolioImg={portfolioImg_01}
+                link="https://tezos.onrender.com/"
+                capture={tezosCapture}
+              />
+              <h6>
+                <code style={{ fontSize: "1.3rem" }}>HTML CSS Javascript</code>
+              </h6>
+              <p className="flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://tezos.onrender.com/"
+                  style={{ color: "#c48f43" }}
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/datamosh0/LandingPage/tree/hosting-branch"
+                  style={{ color: "#c48f43", marginTop: "5px" }}
+                >
+                  Source Code
+                </a>
+              </p>
+            </div>
+            <div
+              className="text-center"
+              style={{
+                boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+                marginLeft: "1rem",
+                marginBottom: "1rem",
+                padding: ".5rem",
+              }}
+            >
+              <h3>Etsy Landing Page</h3>
 
-                <SinglePortfolio
-                  portfolioImg={portfolioImg_06}
-                  link="https://etsy.onrender.com/"
-                  capture={etsyCapture}
-                />
-                <h6>
-                  <code style={{ fontSize: "1.3rem" }}>
-                    HTML SCSS Javascript
-                  </code>
-                </h6>
+              <SinglePortfolio
+                portfolioImg={portfolioImg_06}
+                link="https://etsy.onrender.com/"
+                capture={etsyCapture}
+              />
+              <h6>
+                <code style={{ fontSize: "1.3rem" }}>HTML SCSS Javascript</code>
+              </h6>
 
-                <p className="flex-col">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://etsy.onrender.com/"
-                    style={{ color: "#c48f43" }}
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/datamosh0/Etsy/tree/hosting-branch"
-                    style={{ color: "#c48f43", marginTop: "5px" }}
-                  >
-                    Source Code
-                  </a>
-                </p>
-              </div>
-              <div
-                className="text-center"
-                style={{
-                  boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  marginLeft: "1rem",
-                  marginBottom: "1rem",
-                  padding: ".5rem",
-                }}
-              >
-                <h3>NBA Stats Website</h3>
+              <p className="flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://etsy.onrender.com/"
+                  style={{ color: "#c48f43" }}
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/datamosh0/Etsy/tree/hosting-branch"
+                  style={{ color: "#c48f43", marginTop: "5px" }}
+                >
+                  Source Code
+                </a>
+              </p>
+            </div>
+            <div
+              className="text-center"
+              style={{
+                boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+                marginLeft: "1rem",
+                marginBottom: "1rem",
+                padding: ".5rem",
+              }}
+            >
+              <h3>NBA Stats Website</h3>
 
-                <SinglePortfolio
-                  portfolioImg={portfolioImg_03}
-                  link="https://nba-statistics.netlify.app/"
-                  capture={NBACapture}
-                />
-                <h6>
-                  <code style={{ fontSize: "1.3rem" }}>
-                    React Apis Tailwind Bootstrap
-                  </code>
-                </h6>
+              <SinglePortfolio
+                portfolioImg={portfolioImg_03}
+                link="https://nba-statistics.netlify.app/"
+                capture={NBACapture}
+              />
+              <h6>
+                <code style={{ fontSize: "1.3rem" }}>
+                  React Apis Tailwind Bootstrap
+                </code>
+              </h6>
 
-                <p className="flex-col">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://nba-statistics.netlify.app/"
-                    style={{ color: "#c48f43" }}
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/datamosh0/NBA"
-                    style={{ color: "#c48f43", marginTop: "5px" }}
-                  >
-                    Source Code
-                  </a>
-                </p>
-              </div>
-              {/* <div
+              <p className="flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://nba-statistics.netlify.app/"
+                  style={{ color: "#c48f43" }}
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/datamosh0/NBA"
+                  style={{ color: "#c48f43", marginTop: "5px" }}
+                >
+                  Source Code
+                </a>
+              </p>
+            </div>
+            {/* <div
                 className="text-center"
                 style={{
                   boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
@@ -210,51 +199,48 @@ export default function Projects() {
                   </a>
                 </p>
               </div> */}
-              <div
-                className="text-center"
-                style={{
-                  boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-                  marginLeft: "1rem",
-                  marginBottom: "1rem",
-                  padding: ".5rem",
-                }}
-              >
-                <h3>Wordle Clone</h3>
+            <div
+              className="text-center"
+              style={{
+                boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+                marginLeft: "1rem",
+                marginBottom: "1rem",
+                padding: ".5rem",
+              }}
+            >
+              <h3>Wordle Clone</h3>
 
-                <SinglePortfolio
-                  portfolioImg={portfolioImg_04}
-                  link="https://wordle-5kba.onrender.com/"
-                  capture={wordleCapture}
-                />
-                <h6>
-                  <code style={{ fontSize: "1.3rem" }}>
-                    HTML CSS Javascript
-                  </code>
-                </h6>
+              <SinglePortfolio
+                portfolioImg={portfolioImg_04}
+                link="https://wordle-5kba.onrender.com/"
+                capture={wordleCapture}
+              />
+              <h6>
+                <code style={{ fontSize: "1.3rem" }}>HTML CSS Javascript</code>
+              </h6>
 
-                <p className="flex-col">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://wordle-5kba.onrender.com/"
-                    style={{ color: "#c48f43" }}
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
-                    style={{ color: "#c48f43", marginTop: "5px" }}
-                  >
-                    Source Code
-                  </a>
-                </p>
-              </div>
-            </Masonry>
-          </Col>
-        </Row>
-      </div>
+              <p className="flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wordle-5kba.onrender.com/"
+                  style={{ color: "#c48f43" }}
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
+                  style={{ color: "#c48f43", marginTop: "5px" }}
+                >
+                  Source Code
+                </a>
+              </p>
+            </div>
+          </Masonry>
+        </Col>
+      </Row>
     </div>
   );
 }
