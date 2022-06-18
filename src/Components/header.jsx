@@ -9,7 +9,7 @@ export default function Header() {
       <div className=" pt-30 " style={{ paddingLeft: "3rem" }}>
         <div className="row justify-content-lg-between ">
           <div className="col-lg-12 px-0 ">
-            <div className="menu-area" style={{ marginRight: "18%" }}>
+            <div className="menu-area" style={{ marginRight: "5%" }}>
               <Navbar collapseOnSelect expand="lg" className="p-0">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav">
                   <i className="text-white">
