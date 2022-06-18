@@ -10,7 +10,7 @@ import Footer from "../Components/footer";
 
 export default function Home() {
   return (
-    <div style={{ width: "fit-content" }}>
+    <div style={{ width: "100vw" }}>
       <Header />
       <Slider />
       {/* <Services /> */}
