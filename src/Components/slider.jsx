@@ -84,7 +84,7 @@ export default function slider() {
                 <strong className="firstName">
                   <u>Dawson</u>
                 </strong>
-                . A self taught developer with a passion for building
+                , a self taught developer with a passion for building
                 exceptional digital experiences. I mainly work within the
                 <strong className="react"> React </strong>
                 ecosystem, but I'm always learning new tools & technologies.
