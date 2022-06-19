@@ -27,8 +27,8 @@ export default function Contact() {
         <div className="row md-justify-content-center w-fit">
           <div className="col-lg-4 col-md-6 mb-30">
             <OverlayTrigger placement="bottom" overlay={renderTooltip}>
-              <div className="contact-item">
-                <div className="ct-item-icon float-left  font-sm">
+              <div className="contact-item " style={{ cursor: "pointer" }}>
+                <div className="ct-item-icon float-left ml-30 mr-20">
                   <i>
                     <BiCopyAlt />
                   </i>

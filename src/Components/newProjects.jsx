@@ -99,7 +99,7 @@ export default function Projects() {
               link="https://etsy.onrender.com/"
               capture={etsyCapture}
             />
-            <h6 className="mt-3">
+            <h6>
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
                 HTML SCSS Javascript
               </code>
@@ -137,7 +137,7 @@ export default function Projects() {
               link="https://nba-statistics.netlify.app/"
               capture={NBACapture}
             />
-            <h6 className="mt-3">
+            <h6>
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
                 React Apis Tailwind Bootstrap
               </code>
@@ -180,7 +180,7 @@ export default function Projects() {
                   GHlink="https://github.com/datamosh0/Updated-React-Firebase-Auth/tree/hosting-branch"
                   desc=""
                 />
-                <h6 className="mt-3">
+                <h6>
                   <code className="pt-2" style={{ fontSize: "1.3rem" }}>
                     React Firebase Bootstrap
                   </code>
@@ -211,7 +211,7 @@ export default function Projects() {
               link="https://wordle-5kba.onrender.com/"
               capture={wordleCapture}
             />
-            <h6 className="mt-3">
+            <h6>
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
                 HTML CSS Javascript
               </code>

@@ -7,20 +7,20 @@ import Blogs from "../Components/blogs";
 import Contact from "../Components/contact";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
+import NewProjects from "../Components/newProjects";
 import "../index.css";
 
 export default function Home() {
   return (
-    <div style={{ width: "screen", display: "flex", flexDirection: "column" }}>
+    <div>
       <Header />
       <Slider />
       {/* <Services /> */}
-      <div className="asdf">
-        <SimpleReactLightbox>
-          <Projects />
-        </SimpleReactLightbox>
-        <Blogs />
-      </div>
+      <SimpleReactLightbox>
+        {/* <NewProjects /> */}
+        <Projects />
+      </SimpleReactLightbox>
+      <Blogs />
       <Contact />
       <Footer />
     </div>
