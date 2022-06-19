@@ -58,6 +58,82 @@ export default function Projects() {
               boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
             }}
           >
+            <h3 className="py-2">NBA Stats Website</h3>
+
+            <SinglePortfolio
+              portfolioImg={portfolioImg_03}
+              link="https://nba-statistics.netlify.app/"
+              capture={NBACapture}
+            />
+            <h6 className="mt-3">
+              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
+                React Apis Tailwind Bootstrap
+              </code>
+            </h6>
+
+            <p className="flex-col">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://nba-statistics.netlify.app/"
+                style={{ color: "#c48f43" }}
+              >
+                Live Demo
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/datamosh0/NBA"
+                style={{ color: "#c48f43", marginTop: "5px" }}
+              >
+                Source Code
+              </a>
+            </p>
+          </div>
+          <div
+            className="text-center mb-3"
+            style={{
+              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+            }}
+          >
+            <h3 className="py-2">Wordle Clone</h3>
+
+            <SinglePortfolio
+              portfolioImg={portfolioImg_04}
+              link="https://wordle-5kba.onrender.com/"
+              capture={wordleCapture}
+            />
+            <h6 className="mt-3">
+              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
+                HTML CSS Javascript
+              </code>
+            </h6>
+
+            <p className="flex-col">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wordle-5kba.onrender.com/"
+                style={{ color: "#c48f43" }}
+              >
+                Live Demo
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
+                style={{ color: "#c48f43", marginTop: "5px" }}
+              >
+                Source Code
+              </a>
+            </p>
+          </div>
+          <div
+            className="text-center mb-3"
+            style={{
+              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+            }}
+          >
             <h3 className="py-2">Tezos Landing Page</h3>
             <SinglePortfolio
               portfolioImg={portfolioImg_01}
@@ -124,44 +200,7 @@ export default function Projects() {
               </a>
             </p>
           </div>
-          <div
-            className="text-center mb-3"
-            style={{
-              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-            }}
-          >
-            <h3 className="py-2">NBA Stats Website</h3>
 
-            <SinglePortfolio
-              portfolioImg={portfolioImg_03}
-              link="https://nba-statistics.netlify.app/"
-              capture={NBACapture}
-            />
-            <h6 className="mt-3">
-              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                React Apis Tailwind Bootstrap
-              </code>
-            </h6>
-
-            <p className="flex-col">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://nba-statistics.netlify.app/"
-                style={{ color: "#c48f43" }}
-              >
-                Live Demo
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/datamosh0/NBA"
-                style={{ color: "#c48f43", marginTop: "5px" }}
-              >
-                Source Code
-              </a>
-            </p>
-          </div>
           {/* <div
                 className="text-center"
                 style={{
@@ -198,44 +237,6 @@ export default function Projects() {
                   </a>
                 </p>
               </div> */}
-          <div
-            className="text-center mb-3"
-            style={{
-              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
-            }}
-          >
-            <h3 className="py-2">Wordle Clone</h3>
-
-            <SinglePortfolio
-              portfolioImg={portfolioImg_04}
-              link="https://wordle-5kba.onrender.com/"
-              capture={wordleCapture}
-            />
-            <h6 className="mt-3">
-              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                HTML CSS Javascript
-              </code>
-            </h6>
-
-            <p className="flex-col">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://wordle-5kba.onrender.com/"
-                style={{ color: "#c48f43" }}
-              >
-                Live Demo
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
-                style={{ color: "#c48f43", marginTop: "5px" }}
-              >
-                Source Code
-              </a>
-            </p>
-          </div>
         </Masonry>
       </div>
     </div>
