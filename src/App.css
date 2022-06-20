@@ -13,6 +13,7 @@ body {
   background-color: #2e2e35;
   color: #dadada;
   width: 100%;
+  overflow-x: hidden;
 }
 /*======================= Margin Top =======================*/
 .mt-5 {
