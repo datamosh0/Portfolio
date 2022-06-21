@@ -100,12 +100,12 @@ export default function Projects() {
 
             <SinglePortfolio
               portfolioImg={portfolioImg_04}
-              link="https://wordle-5kba.onrender.com/"
+              link="https://wordle-jepv.onrender.com"
               capture={wordleCapture}
             />
             <h6 className="mt-3">
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                HTML CSS Javascript
+                TYPESCRIPT CSS HTML
               </code>
             </h6>
 
@@ -113,7 +113,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://wordle-5kba.onrender.com/"
+                href="https://wordle-jepv.onrender.com"
                 style={{ color: "#c48f43" }}
               >
                 Live Demo
@@ -121,7 +121,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/datamosh0/wordle-clone/tree/hosting-branch"
+                href="https://github.com/datamosh0/wordle-clone/tree/typescript"
                 style={{ color: "#c48f43", marginTop: "5px" }}
               >
                 Source Code
@@ -141,7 +141,7 @@ export default function Projects() {
               capture={tezosCapture}
             />
             <h6 className="mt-3">
-              <code style={{ fontSize: "1.3rem" }}>HTML CSS Javascript</code>
+              <code style={{ fontSize: "1.3rem" }}>Javascript CSS HTML</code>
             </h6>
             <p className="flex-col">
               <a
@@ -177,7 +177,7 @@ export default function Projects() {
             />
             <h6 className="mt-3">
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                HTML SCSS Javascript
+                Javascript SCSS HTML
               </code>
             </h6>
 
