@@ -67,7 +67,7 @@ export default function Projects() {
             />
             <h6 className="mt-3">
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                React Apis Tailwind Bootstrap
+                REACT APIS TAILWIND BOOTSTRAP
               </code>
             </h6>
 
