@@ -2,15 +2,12 @@ import React, { useState, useEffect } from "react";
 import "../index.css";
 import Masonry from "react-responsive-masonry";
 import SinglePortfolio from "../SingleFeatures/SinglePortfolio";
-import portfolioImg_01 from "../assets/images/portfolio/ss2.png";
-import portfolioImg_02 from "../assets/images/portfolio/ss4.png";
-import portfolioImg_03 from "../assets/images/portfolio/screenshot (3).png";
-import portfolioImg_04 from "../assets/images/portfolio/ss1.png";
-import portfolioImg_06 from "../assets/images/portfolio/ss3.png";
-import tezosCapture from "../assets/images/portfolio/screen-capture-_4_.gif";
-import NBACapture from "../assets/images/portfolio/screen-capture-_2_.gif";
-import etsyCapture from "../assets/images/portfolio/screen-capture-_3_.gif";
-import wordleCapture from "../assets/images/portfolio/screen-capture-_6_.gif";
+import tezosCapture from "../assets/images/portfolio/screen-capture (4) (1).gif";
+import NBACapture from "../assets/images/portfolio/screen-capture (2) (1).gif";
+import etsyCapture from "../assets/images/portfolio/screen-capture (3) (1).gif";
+import wordleCapture from "../assets/images/portfolio/screen-capture (6) (1).gif";
+import chatterCapture from "../assets/images/portfolio/screen-capture (5).gif";
+import forecastCapture from "../assets/images/portfolio/screen-capture (1) (1).gif";
 import { useGlobalEvent } from "beautiful-react-hooks";
 import SectionTitle from "./section_title";
 
@@ -58,10 +55,46 @@ export default function Projects() {
               boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
             }}
           >
-            <h3 className="py-2">NBA Stats Website</h3>
+            <h3 className="py-2">Chat App</h3>
 
             <SinglePortfolio
-              portfolioImg={portfolioImg_03}
+              link="https://onlinechatter.netlify.app/login"
+              capture={chatterCapture}
+            />
+            <h6 className="mt-3">
+              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
+                REACT REDUX TYPESCRIPT FIREBASE
+              </code>
+            </h6>
+
+            <p className="flex-col">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://onlinechatter.netlify.app/login"
+                style={{ color: "#c48f43" }}
+              >
+                Live Demo
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/datamosh0/chat-app"
+                style={{ color: "#c48f43", marginTop: "5px" }}
+              >
+                Source Code
+              </a>
+            </p>
+          </div>
+          <div
+            className="text-center mb-3"
+            style={{
+              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+            }}
+          >
+            <h3 className="py-2">NBA Stats App</h3>
+
+            <SinglePortfolio
               link="https://nba-statistics.netlify.app/"
               capture={NBACapture}
             />
@@ -90,6 +123,7 @@ export default function Projects() {
               </a>
             </p>
           </div>
+
           <div
             className="text-center mb-3"
             style={{
@@ -99,7 +133,6 @@ export default function Projects() {
             <h3 className="py-2">Wordle Clone</h3>
 
             <SinglePortfolio
-              portfolioImg={portfolioImg_04}
               link="https://wordle-jepv.onrender.com"
               capture={wordleCapture}
             />
@@ -136,12 +169,11 @@ export default function Projects() {
           >
             <h3 className="py-2">Tezos Landing Page</h3>
             <SinglePortfolio
-              portfolioImg={portfolioImg_01}
               link="https://tezos.onrender.com/"
               capture={tezosCapture}
             />
             <h6 className="mt-3">
-              <code style={{ fontSize: "1.3rem" }}>Javascript CSS HTML</code>
+              <code style={{ fontSize: "1.3rem" }}>JAVASCRIPT CSS HTML</code>
             </h6>
             <p className="flex-col">
               <a
@@ -171,13 +203,12 @@ export default function Projects() {
             <h3 className="py-2">Etsy Landing Page</h3>
 
             <SinglePortfolio
-              portfolioImg={portfolioImg_06}
               link="https://etsy.onrender.com/"
               capture={etsyCapture}
             />
             <h6 className="mt-3">
               <code className="pt-2" style={{ fontSize: "1.3rem" }}>
-                Javascript SCSS HTML
+                JAVASCRIPT SASS HTML
               </code>
             </h6>
 
@@ -200,7 +231,43 @@ export default function Projects() {
               </a>
             </p>
           </div>
+          <div
+            className="text-center mb-3"
+            style={{
+              boxShadow: "0px 2px 8px 3px rgba(0,0,0,0.46)",
+            }}
+          >
+            <h3 className="py-2">Forecast App</h3>
 
+            <SinglePortfolio
+              link="https://liveforecast.netlify.app/"
+              capture={forecastCapture}
+            />
+            <h6 className="mt-3">
+              <code className="pt-2" style={{ fontSize: "1.3rem" }}>
+                APIS JAVASCRIPT SASS
+              </code>
+            </h6>
+
+            <p className="flex-col">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://liveforecast.netlify.app/"
+                style={{ color: "#c48f43" }}
+              >
+                Live Demo
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/datamosh0/WeatherApp"
+                style={{ color: "#c48f43", marginTop: "5px" }}
+              >
+                Source Code
+              </a>
+            </p>
+          </div>
           {/* <div
                 className="text-center"
                 style={{
@@ -213,7 +280,6 @@ export default function Projects() {
                 <h3 className="py-2">Blog Website</h3>
 
                 <SinglePortfolio
-                  portfolioImg={portfolioImg_02}
                   title="Blog Website"
                   technologies="React, Firebase, Bootstrap"
                   GHlink="https://github.com/datamosh0/Updated-React-Firebase-Auth/tree/hosting-branch"

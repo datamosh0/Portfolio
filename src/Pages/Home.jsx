@@ -7,7 +7,6 @@ import Blogs from "../Components/blogs";
 import Contact from "../Components/contact";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
-import NewProjects from "../Components/newProjects";
 import "../index.css";
 
 export default function Home() {
@@ -15,9 +14,7 @@ export default function Home() {
     <div>
       <Header />
       <Slider />
-      {/* <Services /> */}
       <SimpleReactLightbox>
-        {/* <NewProjects /> */}
         <Projects />
       </SimpleReactLightbox>
       <Blogs />
