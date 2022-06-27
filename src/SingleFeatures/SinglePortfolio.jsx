@@ -7,7 +7,6 @@ export default function SinglePortfolio(props) {
   const [varWidth, setVarWidth] = useState();
   useEffect(() => {
     let window = document.querySelector(".portfolio-thumb");
-    console.log(window.clientWidth);
     setVarWidth(window.clientWidth);
   }, []);
   return (
@@ -16,20 +15,11 @@ export default function SinglePortfolio(props) {
         <div className="portfolio-wrapper">
           <div className="portfolio-thumb ">
             <a href={link} alt="" target="_blank" rel="noopener noreferrer">
-              {/* <img src={portfolioImg} alt={title} /> */}
-              <div
-                className="ml-2 mr-2"
-                style={{
-                  width: `${varWidth}`,
-                  height: "auto",
-                }}
-              >
-                <img
-                  src={capture}
-                  alt={title}
-                  style={{ width: "inherit", height: "inherit" }}
-                ></img>
-              </div>
+              <img
+                src={capture}
+                alt={title}
+                style={{ width: "100%", height: "100$" }}
+              ></img>
             </a>
           </div>
         </div>

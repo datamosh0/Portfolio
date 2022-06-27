@@ -58,7 +58,7 @@ export default function Projects() {
             <h3 className="py-2">Chat App</h3>
 
             <SinglePortfolio
-              link="https://onlinechatter.netlify.app/login"
+              link="https://onlinechatter.netlify.app"
               capture={chatterCapture}
             />
             <h6 className="mt-3">
@@ -71,7 +71,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://onlinechatter.netlify.app/login"
+                href="https://onlinechatter.netlify.app"
                 style={{ color: "#c48f43" }}
               >
                 Live Demo
