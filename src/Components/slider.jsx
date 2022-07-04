@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/slick.min.css";
-import { FaLongArrowAltDown } from "react-icons/fa";
 import { Link } from "react-scroll";
 export default function slider() {
   const str = "Hello, I'm ";
@@ -60,19 +59,17 @@ export default function slider() {
                 </a>
               </div>
             </div>
-            <div className="slider-cta">
-              <Link
-                to="contact"
-                className="ct-btn"
-                smooth={true}
-                duration={2000}
-                activeClass="active"
-                spy={false}
-                offset={5}
-              >
-                Contact me
-              </Link>
-            </div>
+            <Link
+              to="contact"
+              className="ct-btn"
+              smooth={true}
+              duration={2000}
+              activeClass="active"
+              spy={false}
+              offset={5}
+            >
+              Contact me
+            </Link>
           </div>
         </div>
 

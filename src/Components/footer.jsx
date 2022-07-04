@@ -4,7 +4,7 @@ import { animateScroll as scroll } from "react-scroll";
 export default function footer() {
   const goHome = (e) => {
     e.preventDefault();
-    scroll.scrollToTop();
+    scroll.scrollToTop(50);
   };
   return (
     <div className="footer-area">
@@ -14,7 +14,7 @@ export default function footer() {
         </p>
       </div>
       <div className="back-to-top">
-        <a onClick={goHome} href="#">
+        <a onClick={goHome} href="/#">
           <i>
             <FaAngleUp />
           </i>

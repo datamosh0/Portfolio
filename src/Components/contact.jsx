@@ -1,7 +1,7 @@
 import React from "react";
-import { FaEnvelope, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { BiCopyAlt } from "react-icons/bi";
-import SectionTitle from "./section_title";
+import SectionTitle from "./SectionTitle";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../index.css";
 
@@ -34,7 +34,7 @@ export default function Contact() {
                   </i>
                 </div>
                 <div>
-                  <a onClick={myFunction} className="btn-animation">
+                  <a onClick={myFunction} className="btn-animation" href="/#">
                     dawsoncontreras@gmail.com
                   </a>
                 </div>

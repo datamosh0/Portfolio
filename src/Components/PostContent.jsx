@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaDribbble, FaBehance } from "react-icons/fa";
 
 export default function PostContent(props) {
   const { title, blogImage, blogText } = props.post;
@@ -19,43 +18,6 @@ export default function PostContent(props) {
               </div>
             </div>
             <hr />
-          </div>
-        </div>
-        <div className="row news-meta py-2">
-          <div className="col-md-12 text-center">
-            <h4>Social Share</h4>
-            <div className="news-social">
-              <ul className="list-inline">
-                <li className="list-inline-item">
-                  <a href="https://facebook.com/tortoiztheme">
-                    <i>
-                      <FaFacebookF />
-                    </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://twitter.com/tortoizthemes">
-                    <i>
-                      <FaTwitter />
-                    </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://dribbble.com/TortoizTeam">
-                    <i>
-                      <FaDribbble />
-                    </i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://behance.net/tortoizthemes">
-                    <i>
-                      <FaBehance />
-                    </i>
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
