@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Components/header";
-import Slider from "../Components/slider";
-import Projects from "../Components/projects";
-import Blogs from "../Components/blogs";
-import Contact from "../Components/contact";
-import Footer from "../Components/footer";
+import Header from "../Components/Header";
+import Slider from "../Components/Slider";
+import Projects from "../Components/Projects";
+import Blogs from "../Components/Blogs";
+import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 import "../index.css";
 
 export default function Home() {
