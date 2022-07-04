@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 import blogPosts from "../data/blog_posts";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./sectionTitle";
 import "../index.css";
 
 export default function Blogs() {

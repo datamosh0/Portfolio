@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 import Masonry from "react-responsive-masonry";
-import SinglePortfolio from "./SingleProject";
-import SectionTitle from "./SectionTitle";
+import SinglePortfolio from "./singleProject";
+import SectionTitle from "./sectionTitle";
 import projectsData from "../data/projects_data";
 
 export default function Projects() {
@@ -19,9 +19,6 @@ export default function Projects() {
 
   useEffect(() => {
     window.onresize = controlColumns();
-
-    // You can also use:
-    // window.addEventListener('resize', myHandlerFunction);
   }, []);
 
   return (

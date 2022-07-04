@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { BiCopyAlt } from "react-icons/bi";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./sectionTitle";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import "../index.css";
 
