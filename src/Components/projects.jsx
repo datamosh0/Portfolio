@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 import Masonry from "react-responsive-masonry";
-import SinglePortfolio from "./singleProject";
+import SinglePortfolio from "./SingleProject";
 import SectionTitle from "./sectionTitle";
 import projectsData from "../data/projects_data";
 
