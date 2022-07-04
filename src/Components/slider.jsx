@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/slick.min.css";
 import { Link } from "react-scroll";
-export default function slider() {
+export default function Slider() {
   const str = "Hello, I'm ";
   return (
     <div className="pb-30 pt-30">
