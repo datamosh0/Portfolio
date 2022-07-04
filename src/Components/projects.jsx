@@ -22,7 +22,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="asdfContainer">
+    <div className="asdfContainer pt-30 ">
       <div id="projects" className="asdf">
         <SectionTitle title="PROJECTS" />
         <Masonry columnsCount={portfolioColumns} className="masonry">

@@ -2,8 +2,23 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaBars, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { Link as ReactLink } from "react-router-dom";
+
 export default function Header() {
+  const linkData = ["Projects", "Blog", "Contact"];
+  const listData = [
+    {
+      link: "https://www.linkedin.com/in/dawson-contreras-230635204/",
+      icon: <FaLinkedinIn />,
+    },
+    {
+      link: "https://github.com/datamosh0",
+      icon: <FaGithub />,
+    },
+    {
+      link: "https://twitter.com/dawsonCodes_",
+      icon: <FaTwitter />,
+    },
+  ];
   return (
     <div className="header-area pt-30">
       <div className="col-lg-12 px-0 ">
@@ -13,7 +28,7 @@ export default function Header() {
               aria-controls="responsive-navbar-nav"
               style={{ marginLeft: "2rem" }}
             >
-              <i className="text-white">
+              <i style={{ color: "#dadada" }}>
                 <FaBars />
               </i>
             </Navbar.Toggle>
@@ -22,78 +37,33 @@ export default function Header() {
               style={{ justifyContent: "end" }}
             >
               <Nav className="ml-auto align-items-center ">
-                <ReactLink to="/" className="nav-link">
-                  Home
-                </ReactLink>
-                <Link
-                  className="nav-link"
-                  to="projects"
-                  smooth={true}
-                  duration={2000}
-                  activeClass="active"
-                  spy={false}
-                  offset={5}
-                >
-                  Projects
-                </Link>
-
-                <Link
-                  className="nav-link"
-                  to="blog"
-                  smooth={true}
-                  duration={2000}
-                  activeClass="active"
-                  spy={false}
-                  offset={5}
-                >
-                  Blog
-                </Link>
-
-                <Link
-                  className="nav-link"
-                  to="contact"
-                  smooth={true}
-                  duration={2000}
-                  activeClass="active"
-                  spy={false}
-                  offset={5}
-                >
-                  Contact
-                </Link>
+                {linkData.map((link) => {
+                  return (
+                    <Link
+                      className="nav-link"
+                      to={`${link.toLowerCase()}`}
+                      smooth={true}
+                      duration={300}
+                    >
+                      {link}
+                    </Link>
+                  );
+                })}
                 <ul className="mb-0 menu-social pl-15">
-                  <li className="list-inline-item menu-border">
-                    <a
-                      href="https://www.linkedin.com/in/dawson-contreras-230635204/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i>
-                        <FaLinkedinIn />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a
-                      href="https://github.com/datamosh0"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i>
-                        <FaGithub />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a
-                      href="https://twitter.com/dawsonCodes_"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i>
-                        <FaTwitter />
-                      </i>
-                    </a>
-                  </li>
+                  {listData.map((list) => {
+                    const { link, icon } = list;
+                    return (
+                      <li className="list-inline-item ">
+                        <a
+                          href={link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i>{icon}</i>
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </Nav>
             </Navbar.Collapse>
