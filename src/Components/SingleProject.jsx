@@ -27,7 +27,7 @@ export default function SingleProject(props) {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://onlinechatter.netlify.app"
+          href={link}
           style={{ color: "#c48f43" }}
         >
           Live Demo
@@ -35,7 +35,7 @@ export default function SingleProject(props) {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={`${github}`}
+          href={github}
           style={{ color: "#c48f43", marginTop: "5px" }}
         >
           Source Code

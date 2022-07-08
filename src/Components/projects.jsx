@@ -28,6 +28,7 @@ export default function Projects() {
         <Masonry columnsCount={portfolioColumns} className="masonry">
           {projectsData.map((project) => {
             const { title, link, capture, github, tech } = project;
+            console.log(link);
             return (
               <SinglePortfolio
                 title={title}
