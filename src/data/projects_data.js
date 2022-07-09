@@ -38,14 +38,14 @@ const projects = [
     link: "https://etsy.onrender.com/",
     capture: etsyCapture,
     github: "https://github.com/datamosh0/Etsy/tree/hosting-branch",
-    tech: " JAVASCRIPT SASS HTML",
+    tech: "JAVASCRIPT SASS HTML",
   },
   {
     title: "Forecast App",
     link: "https://liveforecast.netlify.app/",
     capture: forecastCapture,
     github: "https://github.com/datamosh0/WeatherApp",
-    tech: "APIS JAVASCRIPT SASS",
+    tech: "TYPESCRIPT SASS APIS",
   },
 ];
 export default projects;
