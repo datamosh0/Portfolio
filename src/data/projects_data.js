@@ -1,9 +1,9 @@
-import tezosCapture from "../assets/images/portfolio/screen-capture (4) (1).gif";
-import NBACapture from "../assets/images/portfolio/screen-capture (2) (1).gif";
-import etsyCapture from "../assets/images/portfolio/screen-capture (3) (1).gif";
-import wordleCapture from "../assets/images/portfolio/screen-capture (6) (1).gif";
-import chatterCapture from "../assets/images/portfolio/screen-capture (5).gif";
-import forecastCapture from "../assets/images/portfolio/screen-capture (1) (1).gif";
+import tezosCapture from "../assets/images/portfolio/screen-capture (4) (2).gif";
+import NBACapture from "../assets/images/portfolio/screen-capture (2) (2).gif";
+import etsyCapture from "../assets/images/portfolio/screen-capture (3) (2).gif";
+import wordleCapture from "../assets/images/portfolio/screen-capture (6) (2).gif";
+import chatterCapture from "../assets/images/portfolio/screen-capture (9).gif";
+import forecastCapture from "../assets/images/portfolio/screen-capture (1) (3).gif";
 const projects = [
   {
     title: "Chat App",
@@ -27,11 +27,11 @@ const projects = [
     tech: "TYPESCRIPT CSS HTML",
   },
   {
-    title: "Tezos Landing Page",
-    link: "https://tezos.onrender.com/",
-    capture: tezosCapture,
-    github: "https://github.com/datamosh0/LandingPage/tree/hosting-branch",
-    tech: "JAVASCRIPT CSS HTML",
+    title: "Forecast App",
+    link: "https://liveforecast.netlify.app/",
+    capture: forecastCapture,
+    github: "https://github.com/datamosh0/WeatherApp",
+    tech: "TYPESCRIPT SASS APIS",
   },
   {
     title: "Etsy Landing Page",
@@ -41,11 +41,11 @@ const projects = [
     tech: "JAVASCRIPT SASS HTML",
   },
   {
-    title: "Forecast App",
-    link: "https://liveforecast.netlify.app/",
-    capture: forecastCapture,
-    github: "https://github.com/datamosh0/WeatherApp",
-    tech: "TYPESCRIPT SASS APIS",
+    title: "Tezos Landing Page",
+    link: "https://tezos.onrender.com/",
+    capture: tezosCapture,
+    github: "https://github.com/datamosh0/LandingPage/tree/hosting-branch",
+    tech: "JAVASCRIPT CSS HTML",
   },
 ];
 export default projects;
