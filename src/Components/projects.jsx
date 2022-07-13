@@ -19,16 +19,16 @@ export default function Projects() {
 
   useEffect(() => {
     window.onresize = controlColumns();
+    window.addEventListener("resize", controlColumns);
   }, []);
 
   return (
-    <div className="asdfContainer pt-30 ">
-      <div id="projects" className="asdf">
+    <div className="flexContainer pt-30 ">
+      <div id="projects" className="marginContainer">
         <SectionTitle title="PROJECTS" />
         <Masonry columnsCount={portfolioColumns} className="masonry">
           {projectsData.map((project) => {
             const { title, link, capture, github, tech } = project;
-            console.log(link);
             return (
               <SinglePortfolio
                 title={title}

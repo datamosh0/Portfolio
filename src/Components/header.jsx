@@ -44,6 +44,7 @@ export default function Header() {
                       to={`${link.toLowerCase()}`}
                       smooth={true}
                       duration={300}
+                      key={link}
                     >
                       {link}
                     </Link>
@@ -53,7 +54,7 @@ export default function Header() {
                   {listData.map((list) => {
                     const { link, icon } = list;
                     return (
-                      <li className="list-inline-item ">
+                      <li className="list-inline-item " key={list.link}>
                         <a
                           href={link}
                           target="_blank"

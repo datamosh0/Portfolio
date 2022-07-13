@@ -59,11 +59,12 @@ code {
   /* row-gap: 1rem !important; */
 }
 
-.asdf {
-  width: 97%;
+.marginContainer {
+  width: 100%;
+  margin: 1rem;
 }
 
-.asdfContainer {
+.flexContainer {
   width: 100%;
   display: flex;
   justify-content: center;

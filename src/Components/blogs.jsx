@@ -13,8 +13,8 @@ export default function Blogs() {
       <div id="blog">
         <SectionTitle title="LATEST BLOGS" />
         <div className="row mt-45 pb-90  ">
-          <div className="col-xl-8  asdfContainer">
-            <div className="row asdf">
+          <div className="col-xl-8  flexContainer">
+            <div className="row marginContainer">
               {featuredPosts.slice(0, featurePostsNumber).map((posts, i) => (
                 <div className="col-lg-6" key={i}>
                   <div className="single-blog mb-30 pb-40">
